@@ -17,8 +17,8 @@ Look at the UI design below; you will notice it is moderate project, not trivial
 
 Do not include this project with your web components repository.
 
-The UI design for Books.Modern Developer follows:
-![project screenshot](http://i.imgur.com/9kEiunn.jpg)
+The UI design for Books.Modern Developer follows: --> sorry the mockup is only for LMD mebers
+[project screenshot](https://study.moderndeveloper.com/wp-content/uploads/2016/08/books.MD_.png)
 
 
 Books.MD UI Assets (The Images You Will Need)
