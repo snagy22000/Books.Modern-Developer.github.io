@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    width: 1440px;
+    background: #F5F5F5;
+    margin: auto;
+}
+
+/* -----MAIN HEADER ------*/
+
+.main-header {
+    background-image: url("img/books_header_bg.jpg");
+    height: 264px;
+
+}
+
+.header-logo, .header-title {
+    display: inline-block;
+    margin: auto;
+}
+
+.header-logo {
+    width: 78px;
+}
+
+.header-title {
+    width: 567px;
+}
+
+#header-search {
+    width:614px;
+    display: block;
+    margin: auto;
+}
+
+
+/* -----MAIN NAVIGATION ------*/
+.main-nav {
+    background: #ffffff;
+    height: 55px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-li {
+    display: inline-block;
+
+}
+
+
+/* -----MAIN CONTENT ------*/
+.books {
+    width: 1203px;
+    margin: auto;
+}
+
+.book-presentation {
+    /*width: 843px;*/
+    float: left;
+    background: #fff;
+    height: 473px;
+}
+
+.book-data p {
+    display: inline-block;
+}
+
+.book-cover {
+    /*width: 360px;*/
+    float: left;
+    margin: 0;
+}
+
+.book-cover img {
+
+}
+
+.book-content-1 {
+    width: 466px;
+    float: left;
+}
+
+.book-content-2 {
+    width: 290px;
+    float: left;
+}
+
+.group-rating a {
+    display: block;
+}
+
+.book-footer {
+    clear: both;
+    margin: 0;
+}
+
+.book-banner, .book-banner > p, .book-bookmark {
+    display: inline-block;
+    background: #ffffff;
+    margin: 0;
+}
+
+
+
+.book-bookmark:before {
+    content: 'BOOKMARK';
+}
+
+
+
+/* -----MAIN FOOTER ------*/
+
+
+.main-footer {
+    background: #3A3A3A;
+}

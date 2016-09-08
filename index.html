@@ -16,7 +16,7 @@
 	<!-- all CSS files -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-	<link rel="stylesheet" href="resources/css/style.css">
+	<link rel="stylesheet" href="resources/css/main.css">
 
 </head>
 <body>
@@ -25,9 +25,9 @@
 
 <!-- ============= -->
     <!-- MAIN HEADER -->
-    <header>
+    <header class="main-header">
       <div class="header-logo logo">
-       <img src="resources/images/books.MD_logo_icon.png" alt="">
+       <img src="resources/images/books.MD_logo_icon.png" alt="books.modern-developer logo">
      </div>
       <div class="header-title">
        <h1><span>Books.</span> Modern Developer</h1>
@@ -40,7 +40,7 @@
     <!-- MAIN NAVIGATION -->
     <nav class="main-nav">
       <ul>
-        <li class="nav-li"><a href="#" class="active"></a>UI/UX Desing</li>
+        <li class="nav-li"><a href="#" class="active"></a>UI/UX Design</li>
         <li class="nav-li"><a href="#"></a>Web Programming</li>
         <li class="nav-li"><a href="#"></a>Frontend Development</li>
         <li class="nav-li"><a href="#"></a>JavaScript</li>
@@ -61,16 +61,23 @@
             <header>
               <h2>Eloquent JavaScript:<br>A Modern Introduction to Programming</h2>
               <div class="book-data">
-                <p>by<span>Martin Haverbeke</span></p>
+                <p>by <span>Martin Haverbeke</span></p>
                 <input type="button" value="Follow">
                 <p>Published on 2015</p>
-                <p>2n edition</p>
+                <p>2nd edition</p>
               </div><!-- DIV book-data -->
             </header>
             <div class="book-content-1">
               <div class="book-desc">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quae quod, animi illo voluptas quas quos iste beatae suscipit modi voluptate saepe eius alias deleniti tenetur aspernatur dignissimos ullam, molestiae!</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum aspernatur architecto fugiat delectus voluptatem modi itaque. Sint, libero accusamus explicabo doloremque quisquam vero natus minima officiis aliquam, omnis nisi excepturi.</p>
+                  <p>
+                      JavaScript lies at the hear of almot every modern web application, from social apps to the newest
+                      browser-based games. Though simple for beginners to pick up and play with, JavaScript is a
+                      flexible, complex language that you can use to build full-scale applications.
+                  </p>
+                  <p>
+                      Eloquent JavaScript, 2nd Edition dives deep into the JavaScript language to show you how to write
+                      beautiful, effective code.
+                  </p>
                   <a href="#">Read more</a>
               </div><!--DIV book-desc -->
             </div><!--DIV book-content-1 -->
@@ -93,7 +100,7 @@
             </div><!--DIV book-content-2 -->
           </article> <!-- ARTICLE  book-presentation -->
           <figure class="book-cover">
-            <img src="resources/images/cover-eloquent-js.png" alt="javascript book eloquent">
+            <img src="resources/images/cover-eloquent-js.png" alt="javascript book eloquent" width="359" height="473">
           </figure>
           <div class="book-footer">
             <!-- All PURCHASE BUTTON  -->
@@ -122,9 +129,9 @@
       <section class="books">
           <article class="book-presentation">
             <header>
-              <h2>JavaScript and JQuery:Interactive Front-End<br>Web Development</h2>
+              <h2>JavaScript and JQuery:Interactive Front-End Web Development</h2>
               <div class="book-data">
-                <p>by<span>Martin Haverbeke</span></p>
+                <p>by <span>Martin Haverbeke</span></p>
                 <input type="button" value="Follow">
                 <p>Published on 2016</p>
                 <p>1st edition</p>
@@ -132,8 +139,14 @@
             </header>
             <div class="book-content-1">
               <div class="book-desc">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quae quod, animi illo voluptas quas quos iste beatae suscipit modi voluptate saepe eius alias deleniti tenetur aspernatur dignissimos ullam, molestiae!</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum aspernatur architecto fugiat delectus voluptatem modi itaque. Sint, libero accusamus explicabo doloremque quisquam vero natus minima officiis aliquam, omnis nisi excepturi.</p>
+                  <p>
+                      In JavaScript & jQuery renowned author Jon Duckett discards the traditional programming book template
+                      and approaches writing code in a more relevant, less intimidating way.
+                  </p>
+                  <p>
+                      Full-color and packed with instructional graphics and photos, his books have gained a loyal following
+                      by illustrating programming in a way both instructive for newcomers and invaluable for seasoned coders.
+                  </p>
                   <a href="#">Read more</a>
               </div><!--DIV book-desc -->
             </div><!--DIV book-content-1 -->
@@ -156,7 +169,7 @@
             </div><!--DIV book-content-2 -->
           </article> <!-- ARTICLE  book-presentation -->
           <figure class="book-cover">
-            <img src="resources/images/cover-javascript-and-jquery.png" alt="javascript book eloquent">
+            <img src="resources/images/cover-javascript-and-jquery.png" alt="javascript book eloquent" width="359" height="473">
           </figure>
           <div class="book-footer">
             <div class="book-banner button"><input type="button" value="Download the Book"></div>
@@ -174,7 +187,7 @@
             <header>
               <h2>Learning PHP, MySQL &amp; JavaScript: With jQuery,<br>CSS &amp; HTML5</h2>
               <div class="book-data">
-                <p>by<span>Martin Haverbeke</span></p>
+                <p>by <span>Martin Haverbeke</span></p>
                 <input type="button" value="Follow">
                 <p>Published on 2016</p>
                 <p>4st edition</p>
@@ -182,8 +195,16 @@
             </header>
             <div class="book-content-1">
               <div class="book-desc">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci quae quod, animi illo voluptas quas quos iste beatae suscipit modi voluptate saepe eius alias deleniti tenetur aspernatur dignissimos ullam, molestiae!</p>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum aspernatur architecto fugiat delectus voluptatem modi itaque. Sint, libero accusamus explicabo doloremque quisquam vero natus minima officiis aliquam, omnis nisi excepturi.</p>
+                  <p>
+                      Build interactive, data-driven websites with the potent combination of open-source technologies and
+                      web standards, even if you have only basic HTML knowledge. With this popular hands-on guide, you'll
+                      tackle dynamic web programming with the help of today's core technologies: PHP, MySQL, JavaScript,
+                      jQuery, CSS, and HTML5.
+                  </p>
+                  <p>
+                      By discussing JavaScript and jQuery in a single text, Duckett ensures you will quickly be writing
+                      your own.
+                  </p>
                   <a href="#">Read more</a>
               </div><!--DIV book-desc -->
             </div><!--DIV book-content-1 -->
@@ -206,7 +227,7 @@
             </div><!--DIV book-content-2 -->
           </article> <!-- ARTICLE  book-presentation -->
           <figure class="book-cover">
-            <img src="resources/images/cover-oreilly.png" alt="javascript book eloquent">
+            <img src="resources/images/cover-oreilly.png" alt="javascript book eloquent" width="359" height="473">
           </figure>
           <div class="book-footer">
             <!-- All PURCHASE BUTTON  -->
@@ -233,7 +254,7 @@
 
 <!-- ============= -->
 <!-- MAIN FOOTER -->
-<footer>
+<footer class="main-footer">
   <img src="resources/images/books.MD_footer_logo_icon.png" alt="footer-logo">
   <section>
     <h3><span>Books</span>.Modern Developer</h3>
