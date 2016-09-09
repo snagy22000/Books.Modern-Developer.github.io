@@ -2,9 +2,9 @@
 
 The project will be available under 
 
-[http://Books.Modern Developer.github.io](http://Books.Modern Developer.github.io)
+[http://Books.Modern-Developer.github.io](http://Books.Modern-Developer.github.io)
 
-Please note that the project is progress! More comming soon. 
+Please note that the project is progress! More coming soon. 
 
 
 ## Project Description

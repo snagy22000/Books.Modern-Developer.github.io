@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.wrapper {
+    width: 1440px;
+    background: #F5F5F5;
+    margin: auto;
+}
+
+/* -----MAIN HEADER ------*/
+
+.main-header {
+    background-image: url("img/books_header_bg.jpg");
+    height: 264px;
+    text-align: center;
+    padding-top: 37px;
+}
+
+.main-header p, .main-header h1 {
+    margin: 0;
+}
+
+
+.header-logo {
+    width: 78px;
+    display: inline-block;
+}
+
+.header-title {
+    display: inline-block;
+    text-align: left;
+}
+
+.search {
+    width: 676px;
+    margin: auto;
+    margin-top: 46px;
+
+}
+
+.search i {
+    height: 50px;
+    background: white;
+    width: 62px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#header-search {
+    width:614px;
+    height: 50px;
+    float:left;
+}
+
+
+/* -----MAIN NAVIGATION ------*/
+.main-nav {
+    background: #ffffff;
+    height: 55px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.nav-li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+/* -----MAIN CONTENT ------*/
+.books {
+    width: 1203px;
+    margin: auto;
+}
+
+.book-presentation {
+    /*width: 843px;*/
+    float: left;
+    background: #fff;
+    height: 473px;
+}
+
+.book-data p {
+    display: inline-block;
+}
+
+.book-cover {
+    /*width: 360px;*/
+    float: left;
+    margin: 0;
+}
+
+.book-cover img {
+
+}
+
+.book-content-1 {
+    width: 466px;
+    float: left;
+}
+
+.book-content-2 {
+    width: 290px;
+    float: left;
+}
+
+.group-rating a {
+    display: block;
+}
+
+.book-footer {
+    clear: both;
+    margin: 0;
+}
+
+.book-banner, .book-banner > p, .book-bookmark {
+    display: inline-block;
+    background: #ffffff;
+    margin: 0;
+}
+
+
+
+.book-bookmark:before {
+    content: 'BOOKMARK';
+}
+
+
+
+/* -----MAIN FOOTER ------*/
+
+
+.main-footer {
+    background: #3A3A3A;
+}
