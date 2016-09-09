@@ -33,12 +33,28 @@
     text-align: left;
 }
 
+.search {
+    width: 676px;
+    margin: auto;
+    margin-top: 46px;
+
+}
+
+.search i {
+    height: 50px;
+    background: white;
+    width: 62px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
 #header-search {
     width:614px;
     height: 50px;
-    display: block;
-    margin: auto;
-    margin-top: 46px;
+    float:left;
 }
 
 
