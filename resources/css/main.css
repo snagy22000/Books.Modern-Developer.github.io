@@ -14,26 +14,31 @@
 .main-header {
     background-image: url("img/books_header_bg.jpg");
     height: 264px;
-
+    text-align: center;
+    padding-top: 37px;
 }
 
-.header-logo, .header-title {
-    display: inline-block;
-    margin: auto;
+.main-header p, .main-header h1 {
+    margin: 0;
 }
+
 
 .header-logo {
     width: 78px;
+    display: inline-block;
 }
 
 .header-title {
-    width: 567px;
+    display: inline-block;
+    text-align: left;
 }
 
 #header-search {
     width:614px;
+    height: 50px;
     display: block;
     margin: auto;
+    margin-top: 46px;
 }
 
 
@@ -44,11 +49,13 @@
     margin: 0;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.nav-li {
-    display: inline-block;
 
+.nav-li {
+    list-style-type: none;
+    display: inline-block;
 }
 
 
