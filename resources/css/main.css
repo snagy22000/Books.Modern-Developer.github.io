@@ -1,12 +1,43 @@
+/* -----IMPORTS ------*/
+
+@import 'https://fonts.googleapis.com/css?family=Hind|Roboto+Slab';
+
+
+/* -----RESETS ------*/
+
 * {
     box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+    font: 16px/1 sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+blockquote,
+figure,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* -----MAIN WRAPPER ------*/
 
 
 .wrapper {
     width: 1440px;
     background: #F5F5F5;
     margin: auto;
+    box-shadow: 0 0 5px #515658;
 }
 
 /* -----MAIN HEADER ------*/
@@ -14,47 +45,76 @@
 .main-header {
     background-image: url("img/books_header_bg.jpg");
     height: 264px;
-    text-align: center;
     padding-top: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.main-header p, .main-header h1 {
-    margin: 0;
+.main-header__center-container {
+    width: 685px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 56px;
 }
-
 
 .header-logo {
-    width: 78px;
-    display: inline-block;
+    padding-left: 5px;
 }
 
 .header-title {
-    display: inline-block;
-    text-align: left;
+    padding-left: 20px;
+    color: #F0F7D9;
+
+}
+
+.header-title h1 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.header-title p {
+    font-family: 'Hindi', sans-serif;
+    color: #668700;
+}
+
+.header-title span {
+    color: #ffffff;
 }
 
 .search {
-    width: 676px;
-    margin: auto;
+    width: 675px;
     margin-top: 46px;
+    display: flex;
 
 }
 
-.search i {
+.search-icon {
     height: 50px;
     background: white;
     width: 62px;
-    float: left;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
 
+.fa-search {
+    color: #9FC316;
 }
 
 #header-search {
-    width:614px;
+    width: 614px;
     height: 50px;
-    float:left;
+    border: none;
+    padding-left: 20px;
+    background: #CEDD9A;
+    color: #627F06;
+    border-radius: 5px 0 0 5px;
+    font-weight: 500;
 }
 
 
@@ -64,8 +124,16 @@
     height: 55px;
     margin: 0;
     display: flex;
-    align-items: center;
     justify-content: center;
+
+}
+
+.main-nav > ul {
+    width: 1030px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 
@@ -77,7 +145,7 @@
 
 /* -----MAIN CONTENT ------*/
 .books {
-    width: 1203px;
+    width: 1202px;
     margin: auto;
 }
 
