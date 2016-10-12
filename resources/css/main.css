@@ -211,20 +211,20 @@ ul {
 .book-data input[type="button"]{
     padding: 5px 10px;
     border: 1px solid #8bb714;
-    border-radius: 2.5px;
+    border-radius: 3px;
     background-color: transparent;
-    font-size: 8px;
+    font-size: 11px;
     color: #8bb714;
 }
 
 .book-data input[type="button"]:hover{
     padding: 5px 10px;
     border: 1px solid #8bb714;
-    border-radius: 2.5px;
+    border-radius: 3px;
     background-color: #8bb714;
     font-size: 8px;
     color: #ffffff;
-    box-shadow: 1px 1px 2.5px gray;
+    box-shadow: 1px 1px 3px gray;
 }
 
 .book-cover {
@@ -245,7 +245,8 @@ ul {
 
 .book-desc {
     padding: 10px 0;
-    font-size: 0.8rem;
+    padding-right: 22px;
+    font-size: .9rem;
     letter-spacing: 0.5px;
     line-height: 1rem;
     color: #4c4c4c;
@@ -266,6 +267,17 @@ ul {
     padding: 1rem;
 }
 
+.group-range, .group-rating {
+    font-size: 14px;
+}
+
+.group-rating {
+    display: block;
+    margin: 10px auto 47px;
+    list-style: none;
+    padding-top: 50px;
+}
+
 .group-range input {
     display: block;
     width: 95%;
@@ -274,25 +286,19 @@ ul {
 
 .group-range label {
     display: block;
-    padding-left: 15px;
+    padding-left: 10px;
     margin-bottom: -2.5px;
-    font-size:  12px;
 }
 
-.group-rating {
-    display: block;
-    width: 100%;
-    margin:  10px auto 0 auto;
-    list-style: none;
-}
 
 .group-rating a {
     display: block;
     position: relative;
-    padding: 5px;
-    border-bottom: 1px solid #A0A0A0;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-bottom: 1px solid #e5e5e5;
     text-transform: none;
-    font-size:  12px;
     text-decoration: none;
     color: #609dd4;
     }
@@ -335,7 +341,7 @@ input[type=range].range-yellow::-webkit-slider-runnable-track {
   border: 0px solid rgba(0, 0, 0, 0);
 }
 input[type=range].range-yellow::-webkit-slider-thumb {
-  box-shadow: px px px rgba(0, 0, 0, 0), 0px 0px px rgba(13, 13, 13, 0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
   border: 0px solid rgba(0, 0, 0, 0);
   height: 0px;
   width: 0px;
@@ -381,7 +387,7 @@ input[type=range].range-green::-webkit-slider-runnable-track {
   border: 0px solid rgba(0, 0, 0, 0);
 }
 input[type=range].range-green::-webkit-slider-thumb {
-  box-shadow: px px px rgba(0, 0, 0, 0), 0px 0px px rgba(13, 13, 13, 0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
   border: 0px solid rgba(0, 0, 0, 0);
   height: 0px;
   width: 0px;
@@ -426,7 +432,7 @@ input[type=range].range-blue::-webkit-slider-runnable-track {
   border: 0px solid rgba(0, 0, 0, 0);
 }
 input[type=range].range-blue::-webkit-slider-thumb {
-  box-shadow: px px px rgba(0, 0, 0, 0), 0px 0px px rgba(13, 13, 13, 0);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0), 0px 0px 0px rgba(13, 13, 13, 0);
   border: 0px solid rgba(0, 0, 0, 0);
   height: 0px;
   width: 0px;
@@ -569,7 +575,7 @@ i.material-icons {
     margin: auto;
      }
 
-footer-title {
+.footer-title {
     display: flex;
     width: 100%;
     margin-bottom: 10px;
