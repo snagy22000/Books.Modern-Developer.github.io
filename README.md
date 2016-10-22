@@ -1,5 +1,7 @@
 # Books.Modern-Developer
 
+[![Join the chat at https://gitter.im/Books-Modern-Developer/Lobby](https://badges.gitter.im/Books-Modern-Developer/Lobby.svg)](https://gitter.im/Books-Modern-Developer/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 The project will be available under 
 
 [http://Books.Modern-Developer.github.io](http://Books.Modern-Developer.github.io)
