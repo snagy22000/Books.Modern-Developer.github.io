@@ -1,6 +1,6 @@
 /* -----IMPORTS ------*/
 
-@import 'https://fonts.googleapis.com/css?family=Hind|Roboto+Slab';
+@import 'https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab';
 
 
 /* -----RESETS ------*/
@@ -78,7 +78,7 @@ ul {
 }
 
 .header-title p {
-    font-family: 'Hindi', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #668700;
 }
 
@@ -127,8 +127,8 @@ ul {
     margin: 0;
     display: flex;
     justify-content: center;
-    font-family: 'Hind', sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
     color: rgba(119, 119, 119, .7);
     font-size: 1.1em;
 
@@ -222,7 +222,7 @@ ul {
     border: 1px solid #8bb714;
     border-radius: 3px;
     background-color: #8bb714;
-    font-size: 8px;
+    font-size: 11px;
     color: #ffffff;
     box-shadow: 1px 1px 3px gray;
 }

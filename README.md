@@ -6,6 +6,18 @@ The project will be available under
 
 Please note that the project is progress! More coming soon. 
 
+## Project Workflow	
+The workflow for our project is as follows: 
+1. Project created [https://github.com/snagy22000/Books.Modern-Developer](https://github.com/snagy22000/Books.Modern-Developer)
+2. Project forked to [https://github.com/deduced/Books.Modern-Developer](https://github.com/deduced/Books.Modern-Developer) by 2nd teammmate.
+3. Periodic meetings via GChat in order to coordinate tasks.
+4. Project task completion, async discussion, handled at [Trello](https://trello.com/)
+5. Github pull requests created by 2nd teammate for incorporation into final project.
+
+
+
+
+
 
 ## Project Description
 Team Project 1: Build the UI for Books.Modern Developer
